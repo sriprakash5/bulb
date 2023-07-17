@@ -1,0 +1,30 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bulb</title>
+    <style>
+    </style>
+</head>
+<body>
+    <h1>Bulb</h1>
+    <div class="b">
+    <button onclick="turnon()">ON</button>
+    <img id="a" src="https://images.freeimages.com/images/previews/70a/light-bulb-1-1427502.jpg" alt="Nothing">
+    <button onclick="turnoff()">OFF</button>
+</div>
+    <script>
+        function turnon()
+        {
+            document.getElementById('a').src='https://images.freeimages.com/images/previews/07c/light-bulb-2-1427493.jpg';
+        }
+        function turnoff()
+        {
+            document.getElementById('a').src='https://images.freeimages.com/images/previews/70a/light-bulb-1-1427502.jpg';
+        }
+
+    </script>
+</body>
+</html>
